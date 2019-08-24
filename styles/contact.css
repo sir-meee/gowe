@@ -1,0 +1,264 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.header{
+  background: linear-gradient(to bottom, rgba(0,0,0,.9),transparent), 
+              url("../images/bible.jpg") bottom no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 20vh;
+}
+.navbar-brand{
+  color: #fff !important;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 15px;
+}
+.navbar{
+  padding-top: 20px !important;
+}
+.nav-item{
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+.nav-link{
+  color: #fff !important;
+  font-size: 12px !important;
+  padding: 0 0 5px 0 !important;
+  display: unset !important;
+  text-transform: uppercase;
+}
+/* .navbar-brand img{
+  width: 125px;
+} */
+.fa-bars{
+  color: #fff;
+  font-size: 40px !important;
+}
+.navbar-toggler{
+  border: 0 !important;
+  outline: none !important;
+  padding: initial !important;
+}
+.active-home{
+  border-bottom: 2px solid #fff; 
+}
+.nav-link:hover{
+  border-bottom: 2px solid #fff;
+}
+.banner{
+  
+  color: #fff;
+}
+.banner h1{
+  margin: 80px 0 50px;
+  font-weight: 600;
+  font-size: 50px;
+}
+.banner img{
+  max-height: 500px;
+}
+.banner a{
+  padding: 12px;
+  width: 150px;
+  display: inline-block; 
+  text-decoration: none !important;
+  color: #fff;
+  border: 2px solid red;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
+.banner a:hover{
+  color: #fff;
+}
+.express-btn{
+  color: #000;
+  margin-right: 5px;
+}
+
+.contact-section{
+
+background-size: cover;
+padding: 40px 0;
+}
+.contact-section h1{
+text-align: center;
+
+}
+.border{
+width: 100px;
+height: 10px;
+background: black;
+margin: 40px auto;
+}
+
+.contact-form{
+max-width: 600px;
+margin: auto;
+padding: 0 10px;
+overflow: hidden;
+}
+
+.contact-form-text, #id_first_name, #id_last_name, #id_email, #id_message{
+display: block;
+width: 100%;
+box-sizing: border-box;
+margin: 16px 0;
+border: 0;
+background: rgb(230, 228, 228);
+padding: 20px 40px;
+outline: none;
+color: black;
+transition: 0.5s;
+}
+.contact-form-text:focus{
+box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact-form-text{
+resize: none;
+height: 120px;
+}
+.contact-form-btn{
+float: right;
+border: 0;
+background: red;
+color: #fff;
+padding: 12px 50px;
+border-radius: 20px;
+cursor: pointer;
+transition: 0.5s;
+}
+.contact-form-btn:hover{
+background: #76b929;
+} 
+/* .service{
+  background-color: #DBD2C3;
+} */
+.service-info i{
+/* color: #FF0000; */
+font-size: 50px;
+}
+.service-info h1{
+font-size: 25px;
+font-weight: 300;
+text-transform: uppercase;
+}
+/* .service-info p,
+.service-info address{
+color: rgba(255,255,255,.5)
+} */
+hr{
+border-top: 1px solid ;
+}
+
+.footer-container{
+max-width: 120rem;
+margin: 0 auto;
+padding: 4rem 6rem; 
+}
+
+@media only screen and (max-width: 56.25em){.footer-container{padding:4rem 4rem}}
+@media only screen and (max-width: 37.5em){.footer-container{padding:4rem 1.5rem}}
+@media only screen and (max-width: 37.5em){.footer-container{padding:1rem 1.5rem}}
+
+.footer {
+display: flex;
+align-items: center;
+padding: 4rem 0 2.5rem 0;
+background-color: #141414;; 
+}
+
+.copyright {
+font-size: 15px;
+text-transform: uppercase;
+color: #fff;
+margin: 0 auto; 
+}
+
+.copyright__name {
+color: red;
+font-weight: bold; 
+}
+
+.footer-nav {
+margin-top: 1rem;
+font-size: 15px;
+color: #fff; 
+}
+
+.footer-nav__link {
+text-decoration: none;
+color: #fff;
+transition: all 400ms; 
+}
+
+.footer-nav__link:hover {
+color: red;
+text-decoration: underline; 
+}
+
+.social-media {
+font-size: 28px;
+margin-top: 1rem;
+display: flex;
+justify-content: center; 
+}
+
+.social-media a:not(:last-child) {
+margin-right: 2rem; 
+}
+
+.social-media__icon {
+color: rgba(255, 255, 255, 0.8);
+transition: all 400ms; }
+/* .social-media__icon:hover {
+color: #0077b5; } */
+.youtube:hover{color: #FF0000;}
+.facebook:hover{color: #3C4B91;}
+.twitter:hover{color: #0095F3;}
+
+.margin-bottom-small {
+margin-bottom: 2rem !important; 
+}
+
+.margin-bottom-medium {
+margin-bottom: 4rem !important; 
+}
+
+.margin-bottom-large {
+margin-bottom: 6rem !important; 
+}
+
+.margin-top-small {
+margin-top: 2rem !important; 
+}
+
+.margin-top-medium {
+margin-top: 4rem !important; 
+}
+
+.margin-top-large {
+margin-top: 6rem !important; 
+}
+
+.center-text {
+text-align: center !important; 
+}
+
+.design{
+font-size: 14px;
+text-transform: uppercase;
+color: #fff;
+margin: 0 auto;
+}
+
+.design-name {
+color: rgba(255, 255, 255, 0.8);
+font-weight: bold; 
+}
