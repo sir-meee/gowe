@@ -90,6 +90,35 @@ a:hover{
     color: #000;
     margin-right: 5px;
 }
+@media only screen and (max-width: 56.25em) {
+    .container {
+        padding: 4rem 4rem; } 
+}
+@media only screen and (max-width: 37.5em) {
+    .container {
+        padding: 4rem 1.5rem; } 
+}
+@media only screen and (max-width: 37.5em) {
+    .container {
+        padding: 1rem 1.5rem; } 
+}
+@media only screen and (min-width: 112.5em) {
+    .banner {
+      height: 120vh; } }
+  @media only screen and (max-width: 75em) {
+    .banner {
+      height: 90vh; } }
+  @media only screen and (max-width: 56.25em) {
+    .banner {
+      height: 50vh; } }
+  @media only screen and (max-width: 46.25em) {
+    .banner {
+      height: 90vh; } }
+  @media only screen and (max-width: 37.5em) {
+    .banner {
+      height: 40vh;
+      background-position: center; } }
+
 
 
 .quick-links{
